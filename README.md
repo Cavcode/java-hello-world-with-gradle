@@ -347,3 +347,5 @@ Now if you run `gradle build`, Gradle should resolve the Joda Time dependency fr
   }
   // end::wrapper[]
 ```
+
+Cameron says to build my repo.

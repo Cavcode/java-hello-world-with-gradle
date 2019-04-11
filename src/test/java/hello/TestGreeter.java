@@ -12,14 +12,10 @@ public class TestGreeter {
 
    private Greeter g = new Greeter();
 
-	
-
-
-
 
    @Test
 
-   public void testGreeterEmpty() 
+   public void testGreeterEmpty()
 
    {
 
@@ -29,11 +25,11 @@ public class TestGreeter {
 
    }
 
-	
+
 
    @Test
 
-   public void testGreeter() 
+   public void testGreeter()
 
    {
 
@@ -44,5 +40,16 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello World!");
 
    }
+
+   @Test
+    public void newtest<cv>GreeterPass()
+    {
+      g.setName("Dave");
+
+      assertEquals(g.getName(), "Dave");
+
+      assertEquals(g.getHello(),"Hello World!");
+
+    }
 
 }

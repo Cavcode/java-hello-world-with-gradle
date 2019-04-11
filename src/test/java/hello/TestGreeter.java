@@ -41,15 +41,6 @@ public class TestGreeter {
 
    }
 
-   @Test
-    public void newtest<cv>GreeterPass()
-    {
-      g.setName("Dave");
 
-      assertEquals(g.getName(), "Dave");
-
-      assertEquals(g.getHello(),"Hello World!");
-
-    }
 
 }

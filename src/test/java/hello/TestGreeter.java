@@ -41,6 +41,16 @@ public class TestGreeter {
 
    }
 
+   @Test
+    public void passTestCVGreeterPass()
+    {
 
+       g.setName("Dave");
+
+       assertEquals(g.getName(),"Dave");
+
+       assertEquals(g.sayHello(),"Hello World!");
+
+    }
 
 }
